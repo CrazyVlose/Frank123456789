@@ -25,14 +25,14 @@ client.on('message', message => {
       message.channel.send(`**تَم تغيير الليسينينق الى   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/inikolaii");
+    client.user.setGame(argresult, "https://www.twitch.tv/fairlight_excalibur");
       message.channel.send(`تم تغييرك حالتك بالتويتش الى   **${argresult}**`)
   }
-  if (message.content.startsWith(adminprefix + 'sn')) {
+  if (message.content.startsWith(adminprefix + 'na')) {
   client.user.setUsername(argresult).then
       message.channel.send(`جاري تغيير الأسم لـ ..**${argresult}** `)
 } else
-if (message.content.startsWith(adminprefix + 'sa')) {
+if (message.content.startsWith(adminprefix + 'av')) {
   client.user.setAvatar(argresult);
     message.channel.send(`**جاري تغيير الأفتار... :** `);
 }
